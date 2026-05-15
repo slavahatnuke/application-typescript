@@ -1,0 +1,33 @@
+{
+  "name": "application-typescript",
+  "version": "1.0.0",
+  "description": "Browser loader: run TypeScript from script[type=application/typescript][src] without a bundler",
+  "type": "module",
+  "main": "./application-typescript.js",
+  "module": "./application-typescript.js",
+  "exports": {
+    ".": "./application-typescript.js"
+  },
+  "files": [
+    "application-typescript.js",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "browser",
+    "esm",
+    "loader",
+    "transpile"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "serve": "npx -y serve . -l 5123 --no-port-switching",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "htm": "3.1.1",
+    "preact": "10.24.3",
+    "typescript": "5.7"
+  }
+}
