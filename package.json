@@ -20,6 +20,14 @@
     "transpile"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavahatnuke/application-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slavahatnuke/application-typescript/issues"
+  },
+  "homepage": "https://github.com/slavahatnuke/application-typescript#readme",
   "scripts": {
     "serve": "npx -y serve . -l 5123 --no-port-switching",
     "typecheck": "tsc --noEmit",
