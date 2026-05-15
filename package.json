@@ -6,7 +6,14 @@
   "main": "./application-typescript.js",
   "module": "./application-typescript.js",
   "exports": {
-    ".": "./application-typescript.js"
+    ".": {
+      "browser": "./application-typescript.js",
+      "default": "./application-typescript.js"
+    }
+  },
+  "sideEffects": true,
+  "engines": {
+    "browser": "*"
   },
   "files": [
     "application-typescript.js",
@@ -17,7 +24,16 @@
     "browser",
     "esm",
     "loader",
-    "transpile"
+    "transpile",
+    "no-bundler",
+    "prototype",
+    "cdn",
+    "esm.sh",
+    "runtime",
+    "browser-only",
+    "transpiler",
+    "blob-url",
+    "import-map"
   ],
   "license": "MIT",
   "repository": {
