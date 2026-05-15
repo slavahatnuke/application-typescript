@@ -9,9 +9,11 @@
     "noEmit": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["hello.ts", "hello.app.ts"]
+  "include": ["hello.ts", "hello.app.ts", "test.ts", "test.app.ts"]
 }

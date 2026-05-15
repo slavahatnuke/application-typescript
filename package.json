@@ -47,9 +47,10 @@
   "scripts": {
     "serve": "npx -y serve . -l 5123 --no-port-switching",
     "typecheck": "tsc --noEmit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx -y serve ."
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.16",
     "htm": "3.1.1",
     "preact": "10.24.3",
     "typescript": "5.7"
