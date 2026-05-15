@@ -210,4 +210,4 @@ npm version patch   # or minor / major
 npm publish --access public
 ```
 
-After publishing, bump the version in any consumer `<script src="https://esm.sh/application-typescript@…">` tags to match.
+The unversioned `https://esm.sh/application-typescript` URL always resolves to the latest published release.
