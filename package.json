@@ -1,6 +1,6 @@
 {
   "name": "application-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser loader: run TypeScript from script[type=application/typescript][src] without a bundler",
   "type": "module",
   "main": "./application-typescript.js",
