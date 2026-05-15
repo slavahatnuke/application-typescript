@@ -26,7 +26,7 @@ Run TypeScript in the browser without a bundler — add one `<script>` tag and s
     
 
     <!-- esm.sh application-typescript runner -->
-    <script type="module" src="https://esm.sh/application-typescript@1.0.0"></script>
+    <script type="module" src="https://esm.sh/application-typescript"></script>
   
   </body>
 </html>
@@ -122,7 +122,7 @@ Keep imports acyclic.
 
 ```html
 <!-- esm.sh -->
-<script type="module" src="https://esm.sh/application-typescript@1.0.0"></script>
+<script type="module" src="https://esm.sh/application-typescript"></script>
 
 <!-- or unpkg -->
 <script type="module" src="https://unpkg.com/application-typescript"></script>
@@ -214,4 +214,4 @@ npm version patch   # or minor / major
 npm publish --access public
 ```
 
-The unversioned `https://esm.sh/application-typescript@1.0.0` URL always resolves to the latest published release.
+The unversioned `https://esm.sh/application-typescript` URL always resolves to the latest published release.
