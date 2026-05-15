@@ -55,7 +55,7 @@ export function HelloApp() {
 Serve over HTTP (not `file://`), then open the page:
 
 ```bash
-npm run serve   # → http://localhost:5123/
+npx -y serve . -l 5123 --no-port-switching   # → http://localhost:5123/
 ```
 
 That's it. No build step, no config file.
